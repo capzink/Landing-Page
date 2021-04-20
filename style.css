@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap');
+
+html {
+	scroll-behavior: smooth;
+	font-size: 100%;
+	
+}
+
+*
+ {
+	box-sizing: border-box;
+  
+}
+
+/*header*/
+
+header{
+  
+  
+}
+#nav-bar{
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  font-family: Open Sans;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-color: #5cac3d;
+  
+}
+
+#header-img{
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 23rem;
+  top: 20px;
+  display: flex;
+  
+}
+.nav-link{
+  position: relative;
+  padding: 8px;
+  margin: 20px;
+  text-decoration: none;
+  
+}
+
+/*index*/
+
+#Home ,#Why-Us{
+  postion: relative;
+  left: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+#index-img {
+  width: auto;
+  height: 554px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  left: 20rem;
+  
+}
+
+#title{
+  font-family: Kaushan Script;
+  font-size: 85px;
+  padding-left: 21rem;
+  padding-top:  7rem;
+  margin-bottom: 1px;
+  color:  #5cac3d;
+
+}
+#sec-index{
+  float: left;  
+}
+
+#text-head{
+  width: 750px;
+  line-height: 1.8;
+  padding-bottom: 5px;
+  padding-left: 21rem;
+  text-align: justify;
+  color: #b3b3b3;
+}
+a{
+  text-decoration: none;
+  text-transformation: uppercase;
+  margin: auto;
+}
+
+/*services*/
+
+#services {
+  background: linear-gradient(white, #5cac3d);
+  height: 360px;
+  postion: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 7rem;
+}
+#srv-icon{
+  border-radius:50%;
+  height: 68px;
+  width: 68px;
+  background-color: #5cac3d;
+  padding:5px;
+}
+.box{
+  text-align: center;
+  max-width: 18rem;
+  color: #5cac3d;
+  font-weight: bold;
+  background-color: white; 
+  padding: 0px 10px 10px 4px;
+  margin-left: 31px;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  
+ }
+.t-serv{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.td-serv{
+  color: #b3b3b3;
+}
+#serv-box{
+  display: flex;
+  margin: 22%;
+  margin-top: -5px; 
+}
+
+/* whyus*/
+.fl-box-why{
+  float: right;
+  max-width: 270px;
+  max-height: 290px;
+  margin-right: 20rem;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 2px;
+	border: 1px solid rgb(209, 210, 216);
+	-webkit-box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
+	box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
+	
+  
+}
+.vid{
+  padding-left: 21rem;
+  display: flex;
+  position: relative;
+  margin-top: -6.5rem
+}
+
+#why{
+  font-family: Kaushan Script;
+  font-size: 85px;
+  padding-Right: 21rem;
+  padding-top:  2rem;
+  margin-bottom: 6px;
+  text-align: right;
+  margin-right: 17rem;
+  color: #5cac3d;
+}
+h2{
+  font-size:48px; 
+  font-weight:bold;
+  margin: 0;
+}
+h4{
+  font-size:24px;
+  margin:0;
+  color: #5cac3d;
+}
+
+/*testimonials*/
+#Testimonials{
+  height: 20rem;
+  justify-content: center;
+  margin-top: 4rem;
+  background-color: white;
+  
+}
+
+#testimo{
+  font-family: Kaushan Script;
+  font-size: 85px;
+  color: #5cac3d;
+  display: flex;
+  margin-left: 22rem;
+  margin-top: 0;
+}
+
+.testi{
+  width: 40%;
+  display: flex;
+  margin-top: -8rem;
+  margin-left: 55rem;
+  padding-bottom: 8.5rem;
+	
+}
+.img-test{
+  margin-right: 30px; 
+  float: right;
+  border-radius:50%
+}
+.f-test {
+  padding: 10px;
+  color: #b3b3b3;
+  text-align: wrap
+}
+/*contact*/
+
+#Contact{
+  background-color: #5cac3d;
+  height: 350px;
+  margin-top:5rem;
+ 
+}
+
+#sec-header{
+  font-family: Kaushan Script;
+  font-size: 85px;
+  color: White;
+  display: flex;
+  margin-left: 22rem;
+  margin-top: -1.8rem;
+  padding-top: 3.5rem;
+  float: left
+}
+#div-form {
+  
+  padding: 55px 60px 0 60px;
+  margin-left: 80rem;
+  margin-top: 25px;
+  margin-right: 13px;
+  width: 20%
+  
+}
+
+textarea {
+	min-height: 6rem;
+  min-width: 30rem;
+	resize: vertical;
+  margin-top: 0.7rem;
+  border-radius: 4px;
+  border: #5cac3d;
+}
+input{
+  min-width: 30rem;
+  min-height: 2rem;
+  margin-top: 0.7rem;
+  border-radius: 4px;
+  border: #5cac3d
+}
+/*other*/
+
+body{
+  font-family: Open Sans;
+  font-size: 18px;
+}
+/* If the screen size is 601px or more, set the font-size  */
+@media only screen and (min-width: 601px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size */
+@media only screen and (max-width: 600px) {
+  div.example {
+    body: 12px;
+  }
+}
