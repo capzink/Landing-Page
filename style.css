@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap');
+
+
+/*overall*/
+html {
+	scroll-behavior: smooth;	
+}
+
+*
+ {
+	box-sizing: border-box;
+ }
+
+body{
+  margin:0;
+  font-size: 100%;
+
+}
+.container{
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+} 
+
+main{
+  margin: auto;
+  width: 90%;
+  font-family: Open Sans;
+  
+}
+
+/*header*/
+
+header{
+  position: sticky;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  z-index: 1;
+  
+}
+
+#header-img{
+  height: 100px;
+  width:  120px;
+  border-radius: 50%;
+  margin-left:5%;
+}
+
+nav{
+  text-align: right;
+  font-size: 22px;
+  width: 100%;
+  margin-right: 5%;
+    
+}
+.nav-link{
+  display: inline-block;
+  padding: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #5cac3d;
+}
+/*home*/
+
+#Home{
+  display: flex;
+  width:100%;
+  height:20%;
+  background: url(https://capzink.github.io/Landing-Page/smin.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.glass-cont{
+  width: 35%;
+  height: 55%;
+  background: rgba(92, 172, 61, 0.5);
+  margin: 10% 0 10% 6%;
+ 
+}
+.title{
+  text-align: center;
+  font-family: Kaushan script;
+  color: white;
+  font-size: 3vw;
+  padding-top: 3%;
+  margin-bottom: 0;
+  
+}
+#text-head{
+  line-height: 1.8;
+  font-size: 14px;
+  text-align: justify;
+  color: white;
+  padding: 0 5% 5% 5%;
+ 
+}
+.butt{
+  display: flex;
+  padding: 2%;
+  text-decoration: none;
+  width:50%;
+  font-size: 0.8vmax;
+  border-radius: 2%;
+  border: #5cac3d;
+  margin: auto;
+  color: white;
+}
+button a{
+  display: flex;
+  padding: 1% 10% 1% 10%;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  font-family: open sans;
+}
+
+/*services*/
+
+#services {
+  display: flex;
+  width:100%;
+  height:20%;
+  font-family: open sans;
+  
+}
+
+#serv-box{
+  display: flex;
+  width: 100%;
+  margin-top: 4%;
+ justify-content:space-between;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  color: #5cac3d;
+  
+ }
+#srv-icon{
+  border-radius:50%;
+  height: 100px;
+  width: 100px;
+  background: rgba(92, 172, 61, 0.5);
+  padding: 2%;
+}
+
+.t-serv{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+.td-serv{
+  color: #b3b3b3;
+  font-family: open-sans;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+/* whyus*/
+
+#whyus{
+  margin-top: 2%;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height:20%;
+ 
+ }
+#why{
+  text-align: right;
+  font-family: Kaushan script;
+  text-transform: uppercase;
+  font-size: 3.6vw;
+  color: #5cac3d;
+  width: 100%;
+}
+.reasons{
+  display: flex;
+  order: 2;
+  flex: 50%;
+  justify-content: space-evenly;
+ 
+}
+
+.sub-whyus{
+  display: flex;
+  width: 100%;
+}
+
+
+.fl-box-why{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  border-radius: 2px;
+	border: 1px solid rgb(209, 210, 216);
+	-webkit-box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
+	box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+.vid{
+  order: 1;
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+}
+
+h2{
+  font-size:48px; 
+  font-weight: bold;
+  margin: -2.5%;
+}
+h4{
+  font-size:24px;
+  margin:-2%;
+  color: #5cac3d;
+}
+
+/*testimonials*/
+#Testimonials{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  width: 100%;
+  height: 20%;
+ 
+}
+
+#testimo{
+  font-family: Kaushan Script;
+  text-transform: uppercase;
+  font-size: 3.6vw;
+  color: #5cac3d;
+  width: 35%;
+ 
+}
+
+.sub-testi{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  width: 70%;
+  margin-top:-6%;
+  float: right;
+}
+
+.testi{
+  width: 99%;
+  display: flex;
+  padding-left: 1%;
+
+}
+.img-test{
+  border-radius:50%;
+  height:105px;
+  width: 105px;
+}
+.f-test {
+  padding: 1%;
+  color: #b3b3b3;
+  text-align: wrap;
+  font-family: open sans;
+  line-height: 1.8;
+  
+}
+#s-test{
+  display: flex;
+  flex-direction: row-reverse;
+}
+/*contact*/
+
+#Contact{
+  width: 100%;
+  background-color: #5cac3d;
+  margin:2% 0 5% 0;
+}
+
+#sec-header{
+  font-family: Kaushan Script;
+  text-transform: uppercase;
+  font-size: 3.6vw;
+  color: white;
+  width: 100%;
+  text-align: center;
+  
+}
+
+#div-form{
+  text-align: center;
+  margin-top: -1.5%;
+  padding-bottom: 2%;
+}
+textarea {
+
+	min-height: 6rem;
+  min-width: 30rem;
+	resize: vertical;
+  margin-top: 0.7rem;
+  border-radius: 4px;
+  border: #5cac3d;
+  
+}
+input{
+  min-width: 30rem;
+  min-height: 2rem;
+  margin-top: 0.7rem;
+  border-radius: 4px;
+  border: #5cac3d;
+}
+
+/*media*/
+
+@media screen and (min-width: 1500px) {
+  
+  main{
+    width:70%;
+  }
+  
+  #header-img{
+  margin-left: 15%;
+  }
+
+  nav{
+  margin-right: 15%;
+  }
+ 
+  #why{
+  text-align: center;
+}
+   .sub-testi{
+   width: 60%;
+}
+ 
+  .img-test{
+  height:5vmax;
+  width: 5vmax;
+}
+ 
+}
+
