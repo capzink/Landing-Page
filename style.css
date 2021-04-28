@@ -126,8 +126,9 @@ button a{
 #services {
   display: flex;
   width:100%;
-  height:15%;
+  height:18%;
   font-family: open sans;
+ 
   
 }
 
@@ -164,7 +165,7 @@ button a{
   color: #b3b3b3;
   font-family: open-sans;
   line-height: 1.8;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* whyus*/
@@ -180,7 +181,7 @@ button a{
   text-align: right;
   font-family: Kaushan script;
   text-transform: uppercase;
-  font-size: 3.6vw;
+  font-size: 3vw;
   color: #5cac3d;
   width: 100%;
 }
@@ -209,7 +210,7 @@ button a{
 	-webkit-box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
 	box-shadow: 0px 0px 12px -1px rgba(153, 153, 153, 0.9);
   justify-content: space-evenly;
-  font-size: 15px;
+  font-size: 17px;
 }
 .vid{
   order: 1;
@@ -242,7 +243,7 @@ h4{
 #testimo{
   font-family: Kaushan Script;
   text-transform: uppercase;
-  font-size: 3.6vw;
+  font-size: 3vw;
   color: #5cac3d;
   width: 35%;
  
@@ -275,6 +276,7 @@ h4{
   text-align: wrap;
   font-family: open sans;
   line-height: 1.8;
+  font-size: 17px;
   
 }
 #s-test{
@@ -292,7 +294,7 @@ h4{
 #sec-header{
   font-family: Kaushan Script;
   text-transform: uppercase;
-  font-size: 3.6vw;
+  font-size: 3vw;
   color: white;
   width: 100%;
   text-align: center;
@@ -337,21 +339,25 @@ input{
   nav{
   margin-right: 15%;
   }
+ 
    .sub-testi{
    width: 60%;
 }
+ 
   .img-test{
   height:5vmax;
   width: 5vmax;
 }
+ 
 }
 @media screen and (max-width: 500px) {
-.container{
-  font-size:0.8vmax;
-	}
-#header{
-  display:none;
-}
+  .container{
+    font-size:1vw;
+  }
+  #header{
+    display: none;
+  }
+
 #why{
   text-align: center;
 }
@@ -359,8 +365,7 @@ input{
   flex-direction:column;
   order: 1;
   padding:1%;
-  border: solid;
- 
+  
 }
 
 .sub-whyus{
@@ -371,15 +376,20 @@ input{
 .fl-box-why{
   
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   font-size: 1.2vmax;
+  margin: auto;
   
 }
 .vid{
+  display: flex;
   order: 2;
+  width:270px; 
+  height:200px; 
+  margin: auto;
 }
 
 h2{
   margin: 1%;
 }
-
+}
