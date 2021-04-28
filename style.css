@@ -126,7 +126,7 @@ button a{
 #services {
   display: flex;
   width:100%;
-  height:20%;
+  height:15%;
   font-family: open sans;
   
 }
@@ -170,7 +170,6 @@ button a{
 /* whyus*/
 
 #whyus{
-  margin-top: 2%;
   display: flex;
   margin: auto;
   width: 100%;
@@ -338,18 +337,15 @@ input{
   nav{
   margin-right: 15%;
   }
- 
-  #why{
-  text-align: center;
-}
    .sub-testi{
    width: 60%;
 }
- 
   .img-test{
   height:5vmax;
   width: 5vmax;
 }
- 
 }
-
+@media screen and (max-width: 400px) {
+#header{
+  display:none;
+	}
