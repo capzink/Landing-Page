@@ -351,4 +351,35 @@ input{
 	}
 #header{
   display:none;
-	}
+}
+#why{
+  text-align: center;
+}
+.reasons{
+  flex-direction:column;
+  order: 1;
+  padding:1%;
+  border: solid;
+ 
+}
+
+.sub-whyus{
+  flex-direction: column;
+}
+
+
+.fl-box-why{
+  
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.2vmax;
+  
+}
+.vid{
+  order: 2;
+}
+
+h2{
+  margin: 1%;
+}
+
