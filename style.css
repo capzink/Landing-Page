@@ -347,7 +347,7 @@ input{
 }
 @media screen and (max-width: 500px) {
 .container{
-  font-size:1vw;
+  font-size:0.8vmax;
 	}
 #header{
   display:none;
