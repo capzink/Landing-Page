@@ -381,6 +381,11 @@ nav{
   width:  10vmax;
   }
   
+  .glass-cont{
+  width: 65%;
+  height: 75%;
+  }
+  
 #why{
   text-align: center;
 }
