@@ -351,16 +351,30 @@ input{
   width: 5vmax;
 }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait),
+  only screen and (max-device-width: 640px){
+    
+    .reasons{
+  justify-content: space-evenly;
+  margin-top:2%
+ 
+}
 
+.sub-whyus{
+ 
+  flex-direction: column;
+  padding:2%;
+}
+}
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
   .body{
     font-size:1vw;
   }
 
 nav{
 
-  font-size: 1vmin; 
+  font-size: 1vw; 
 }
 .nav-link{
   padding: 5%;
