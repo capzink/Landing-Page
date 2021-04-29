@@ -299,18 +299,18 @@ h4{
   color: white;
   width: 100%;
   text-align: center;
+  margin-bottom:0;
   
 }
 
 #div-form{
   text-align: center;
-  margin-top: -1.5%;
-  padding-bottom: 2%;
+  padding: 2%;
 }
 textarea {
 
 	min-height: 6rem;
-  min-width: 30rem;
+  min-width: 20rem;
 	resize: vertical;
   margin-top: 0.7rem;
   border-radius: 4px;
@@ -318,7 +318,7 @@ textarea {
   
 }
 input{
-  min-width: 30rem;
+  min-width: 20rem;
   min-height: 2rem;
   margin-top: 0.7rem;
   border-radius: 4px;
@@ -350,35 +350,7 @@ input{
   width: 5vmax;
 }
 }
-@media screen and (min-width: 1030px) {
-  
-.sub-whyus{
-  flex-direction: column;
-}
 
-
-.fl-box-why{
-  
-  flex-direction: column;
-  width: 100%;
-  margin: auto;
-  border: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-  
-}
-.vid{
-  display: flex;
-  order: 2;
-  width:360px; 
-  
-  margin: auto;
-}
-
-h2{
-  margin: 1%;
-  }
-}
 
 @media screen and (max-width: 760px) {
   .body{
