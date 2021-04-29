@@ -351,7 +351,7 @@ input{
   width: 5vmax;
 }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait),
+@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) and (orientation: portrait),
   only screen and (max-device-width: 640px){
     
     .reasons{
@@ -367,14 +367,14 @@ input{
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .body{
     font-size:1vw;
   }
 
 nav{
 
-  font-size: 1vw; 
+  font-size: 8px; 
 }
 .nav-link{
   padding: 5%;
