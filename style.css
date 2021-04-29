@@ -196,6 +196,7 @@ button a{
 
 .sub-whyus{
   display: flex;
+  
   width: 100%;
 }
 
@@ -351,8 +352,7 @@ input{
   width: 5vmax;
 }
 }
-@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) and (orientation: portrait),
-  only screen and (max-device-width: 640px){
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
     
     .reasons{
   justify-content: space-evenly;
@@ -361,7 +361,6 @@ input{
 }
 
 .sub-whyus{
- 
   flex-direction: column;
   padding:2%;
 }
