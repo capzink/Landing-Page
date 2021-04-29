@@ -238,7 +238,7 @@ h4{
   margin-top: 2%;
   width: 100%;
   height: 20%;
- 
+ justify-content:center;
 }
 
 #testimo{
@@ -247,6 +247,7 @@ h4{
   font-size: 34px;
   color: #5cac3d;
   width: 35%;
+  
  
 }
 
@@ -310,7 +311,7 @@ h4{
 textarea {
 
 	min-height: 6rem;
-  min-width: 20rem;
+  min-width: 18rem;
 	resize: vertical;
   margin-top: 0.7rem;
   border-radius: 4px;
@@ -318,7 +319,7 @@ textarea {
   
 }
 input{
-  min-width: 20rem;
+  min-width: 18rem;
   min-height: 2rem;
   margin-top: 0.7rem;
   border-radius: 4px;
@@ -359,7 +360,7 @@ input{
 
 nav{
 
-  font-size: 1.8vmax; 
+  font-size: 1vmin; 
 }
 .nav-link{
   padding: 5%;
@@ -378,30 +379,22 @@ nav{
   flex-direction:column;
   order: 1;
   margin:auto;
-  
-  
 }
-
 .sub-whyus{
   flex-direction: column;
 }
-
-
 .fl-box-why{
-  
   flex-direction: column;
   width: 100%;
   margin: auto;
   border: none;
 	-webkit-box-shadow: none;
-	box-shadow: none;
-  
+	box-shadow: none;  
 }
 .vid{
   display: flex;
   order: 2;
-  width:370px; 
-  
+  width:1vmax; 
   margin: auto;
 }
 
@@ -410,13 +403,22 @@ h2{
 }
 
 #serv-box{
- 
  flex-direction: column;
- 
 }
 .box{
   flex-direction: column;
   width: 100%;
+}
+  
+#testimo{
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.sub-testi{
+  width: 100%;
+ 
 }
 }
 @media screen and (max-width: 500px) {
